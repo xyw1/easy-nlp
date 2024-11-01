@@ -1,32 +1,40 @@
-# 项目名称
+# Easy-NLP
 
-这里写项目的各类介绍信息，例如：
+本课程将带大家通过使用pytorch中的线性层来手搓传统NLP中的RNN, GRU, LSTM和带注意力机制的Seq2Seq模型, 帮助大家理解和入门传统的NLP模型。同时每个神经网络写好后都会结合一个实际的例子, 带大家了解这些模型是怎么训练的,以及如何对数据做预处理。
 
-- 项目背景、动机等简介内容
-- 项目内容目录
-- ....
 
-## Roadmap
 
-*注：说明当前项目的规划，并将每个任务通过 Issue 形式进行对外进行发布。*
+## 课程大纲
+
+| 章节            | 内容                            | 备注                                                 |
+| --------------- | ------------------------------- | ---------------------------------------------------- |
+| 1. 手搓 RNN     | 介绍 RNN 并从零开始构建         | 涵盖基础 RNN 单元结构、前向传播和时间反向传播 (BPTT) |
+| 2. 手搓 LSTM    | 理解并实现 LSTM 单元            | 包括遗忘门、输入门、输出门，解释 LSTM 如何改进 RNN   |
+| 3. 手搓 GRU     | GRU 结构及从零实现              | 重点介绍 GRU 的门控机制及其相较于 LSTM 的效率        |
+| 4. 手搓 Seq2Seq | 构建用于序列预测的 Seq2Seq 模型 | 涵盖编码器-解码器结构，可选讲解注意力机制            |
+
+
+
+
 
 ## 参与贡献
 
-- 如果你想参与到项目中来欢迎查看项目的 [Issue]() 查看没有被分配的任务。
-- 如果你发现了一些问题，欢迎在 [Issue]() 中进行反馈🐛。
-- 如果你对本项目感兴趣想要参与进来可以通过 [Discussion]() 进行交流💬。
+- 如果你想参与到项目中来欢迎查看项目的 [Issue](https://github.com/datawhalechina/unlock-hf/issues) 查看没有被分配的任务✨。
+- 如果你发现了一些问题，欢迎在 [Issue](https://github.com/datawhalechina/unlock-hf/issues) 中进行反馈🐛。
 
-如果你对 Datawhale 很感兴趣并想要发起一个新的项目，欢迎查看 [Datawhale 贡献指南](https://github.com/datawhalechina/DOPMC#%E4%B8%BA-datawhale-%E5%81%9A%E5%87%BA%E8%B4%A1%E7%8C%AE)。
+如果你对 Datawhale 很感兴趣并想要发起一个新的项目，欢迎查看 [Datawhale 贡献指南](https://github.com/datawhalechina/DOPMC#为-datawhale-做出贡献)。
+
+
 
 ## 贡献者名单
 
-| 姓名 | 职责 | 简介 |
-| :----| :---- | :---- |
-| 小明 | 项目负责人 | 小明 |
+| 姓名 | 职责        | 简介       |
+| :--- | :---------- | :--------- |
+| 小明 | 项目负责人  | 小明       |
 | 小红 | 第1章贡献者 | 小明的朋友 |
 | 小强 | 第2章贡献者 | 小明的朋友 |
 
-*注：表头可自定义，但必须在名单中标明项目负责人*
+
 
 ## 关注我们
 
@@ -34,6 +42,7 @@
 <p>扫描下方二维码关注公众号：Datawhale</p>
 <img src="https://raw.githubusercontent.com/datawhalechina/pumpkin-book/master/res/qrcode.jpeg" width = "180" height = "180">
 </div>
+
 
 ## LICENSE
 
