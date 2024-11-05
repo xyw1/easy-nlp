@@ -137,6 +137,7 @@ Seq2Seq由两个组件组成:
 注意力机制的计算公式多种多样，但最具代表性的是2017年论文《Attention Is All You Need》中提出的注意力计算公式。该公式凭借其强大的并行计算优势，从众多公式中脱颖而出，成为领域内的重要基石。
 
 公式如下:
+
 $$
 \text{Attention}(Q, K, V) = \text{Softmax}\left(\frac{Q K^T}{\sqrt{d_k}}\right) V
 $$
