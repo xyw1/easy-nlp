@@ -12,8 +12,11 @@ GRU通过合并LSTM中的遗忘门和输入门为更新门，并引入重置门�
 
 想要去理解一个模型，了解模型的输入输出是至关重要的一部分。将GRU模型当成一个黑匣子，模型结构图可以化简成下图所示：
 
-![.center]
-[images\image-202411021243032.png](https://github.com/gzhuuser/easy-nlp/blob/master/docs/chapter3/images/image-202411021243032.png?raw=true)
+<div align=center>
+<img src="https://github.com/gzhuuser/easy-nlp/blob/master/docs/chapter3/images/image-202411021243032.png?raw=true" >
+</div>
+
+
 
 其中：
 
@@ -33,7 +36,9 @@ GRU通过合并LSTM中的遗忘门和输入门为更新门，并引入重置门�
 
 下面，我们对GRU的结构进行逐步的分解：
 
-![(images\image-202411031049271.png)](https://github.com/gzhuuser/easy-nlp/blob/master/docs/chapter3/images/image-202411031049271.png?raw=true)
+<div align=center>
+<img src="https://github.com/gzhuuser/easy-nlp/blob/master/docs/chapter3/images/image-202411031049271.png?raw=true" >
+</div>
 
 如图所示，一开始GRU定义了两个门：R（重置门）和 Z（更新门），这里我们可以把他简单的理解为与隐藏状态长度的向量，计算方式如下：
 
@@ -57,7 +62,9 @@ GRU通过合并LSTM中的遗忘门和输入门为更新门，并引入重置门�
 
 接下来，我们具体看看这两个门是怎么去使用的。
 
-![(images\image-202411031248189.png)](https://github.com/gzhuuser/easy-nlp/blob/master/docs/chapter3/images/image-202411031248189.png?raw=true)
+<div align=center>
+<img src="https://github.com/gzhuuser/easy-nlp/blob/master/docs/chapter3/images/image-202411031248189.png?raw=true" >
+</div>
 
 如图，重置门产生的值 $R^t$ ，经过公式：
 
@@ -71,7 +78,9 @@ GRU通过合并LSTM中的遗忘门和输入门为更新门，并引入重置门�
 
 最后，我们来看看真正的隐藏状态是如何产生的：
 
-![images\image-202411041156317.png](https://github.com/gzhuuser/easy-nlp/blob/master/docs/chapter3/images/image-202411041156317.png?raw=true)
+<div align=center>
+<img src="https://github.com/gzhuuser/easy-nlp/blob/master/docs/chapter3/images/image-202411041156317.png?raw=true" >
+</div>
 
 如图所示，真正的隐藏状态 $H^t$ 是由候选隐藏状态、更新门和前一时间步隐藏状态所决定的。具体公式如下：
 
