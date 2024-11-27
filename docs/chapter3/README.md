@@ -10,7 +10,7 @@ GRU通过合并LSTM中的遗忘门和输入门为更新门，并引入重置门�
 
 ### GRU模型结构
 
-想要去理解一个模型，了解模型的输入输出是至关重要的一部分。将GRU模型当成一个黑匣子，模型结构图可以化简成下图所示：
+想要去理解一个模型，了解模型的输入输出是至关重要的一部分。将GRU模型当成一个黑匣子，模型结构图可以化简成下图所示： 
 
 <div align=center>
 <img src="https://github.com/gzhuuser/easy-nlp/blob/master/docs/chapter3/images/image-202411021243032.png?raw=true" >
