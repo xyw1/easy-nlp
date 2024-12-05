@@ -116,7 +116,7 @@ def train(model, dataloader, optimizer, criterion, num_epochs):
 
 # 主函数
 if __name__ == "__main__":
-    file_path = "/home/ma-user/work/dev/easy-nlp-main/docs/chapter1/test.txt"
+    file_path = "./test.txt"
     lyrics = read_lyrics(file_path)
     print(lyrics)
     word2idx = build_vocab(lyrics)
